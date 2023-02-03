@@ -158,5 +158,5 @@ app.listen(3001,(err)=>{
 })
 
 app.get('/*', function (req, res) {
-    res.sendFile(path.join(__dirname + '/dist/Frontend/index.html'));
+    res.sendFile(path.join(__dirname + '/build/index.html'));
 });
